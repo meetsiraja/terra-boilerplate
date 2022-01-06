@@ -1,0 +1,17 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node scripts/1_upload.js",
+    "update": "node scripts/2_change.js",
+    "query": "node scripts/3_get.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@terra-money/terra.js": "^3.0.2"
+  }
+}
